@@ -2,7 +2,7 @@
 	$pvp = 10;
 	$IVA=21;
 	if (empty($_GET['ingr'])) {
-		$pvp_public=$pvp_public*$IVA;
+		$pvp_public=$pvp*((100+$IVA)/100);
 		echo "El preu de la pizza bàsica és $pvp_public € (IVA inclòs)<br>";
 	}
 	else {

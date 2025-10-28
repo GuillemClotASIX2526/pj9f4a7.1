@@ -1,10 +1,11 @@
 services:
-    webphp_pizzeria:
-    image: ipizza:1.2
-    build: .
+  webphp_pizzeria:
+    image: ipizza:1.2  
+    build: .           
     container_name: cpizza1.2
     ports:
-        - "80:80"
+      - "80:80"  
+
 #
 # NOMS DE SERVEIS, IMATGES I CONTENIDORS.
 # 1- webphp_pizzeria → Etiqueta identificadora del servei
